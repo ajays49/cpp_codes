@@ -1,0 +1,16 @@
+
+#include <iostream>  //header file library
+using namespace std; // can use names for objects from std library
+
+int main() // main function
+{
+  int x, y;
+  int sum;
+  cout << "Type a number: \n";  // To print "cout" + "insertion operator
+  cin >> x;    // Get input from console "cin" + "extraction operator"
+  cout << "Type another number: " << endl;
+  cin >> y;
+  sum = x + y;
+  cout << "Sum is: " << sum;
+  return 0;
+}

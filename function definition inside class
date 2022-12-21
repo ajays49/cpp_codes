@@ -1,0 +1,21 @@
+
+#include <iostream>
+using namespace std;
+
+class myClass
+{
+    public: //access specifier
+        void myFunction() // Function inside class
+        {
+             cout << "VIT! definition witin class";
+        }
+};
+
+int main()
+{
+    myClass c1; // Object creation
+    c1.myFunction(); // Call function
+    return 0;
+}
+
+

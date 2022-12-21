@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+class myClass
+{
+    public:
+        void myFunction();
+};
+
+// Function definition outside the class
+void myClass::myFunction() //scope operator
+{
+  cout << "VIT!";
+}
+
+int main()
+{
+    myClass c1; // Object creation
+    c1.myFunction();
+    return 0;
+}
